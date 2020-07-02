@@ -1,0 +1,468 @@
+.card {
+    margin-bottom: 0;
+}
+
+.content-wrapper>.content {
+    padding: 0px 10px 10px 10px;
+}
+
+.user-profile img {
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+.dropdown-menu {
+    position: static;
+    float: none;
+    margin: 0.55rem 0 0;
+}
+
+.dropdown-usermenu {
+    border: medium none;
+    box-shadow: none;
+    display: none;
+    float: left;
+    right: -8px;
+    list-style: none outside none;
+    padding: 0;
+    position: absolute;
+    text-shadow: none;
+    top: 100%;
+    z-index: 9998;
+    border: 1px solid #D9DEE4;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.pull-right {
+    float: right;
+}
+
+.dropdown-item i {
+    padding-top: 0px;
+    padding-right: 3px
+}
+
+.logo-menu {
+    text-align: center;
+}
+
+.nav-sidebar .nav-treeview {
+    padding-left: 15px;
+}
+
+.header-actions {
+    padding: 2px 5px;
+    display: flow-root;
+}
+
+.text-tab-right {
+    margin-left: 5px;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px #b9b7b7;
+    border-radius: 4px;
+    margin-top: 14px;
+    border: 1px solid #bbbbbb;
+}
+
+.content-wrapper {
+    background: #f5f5f5;
+}
+
+.navbar-white {
+    background-color: #168596;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(227, 251, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #daf8fb;
+    text-decoration: none;
+}
+
+.content-header {
+    padding: 5px .5rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d9dada;
+    box-shadow: 0px 0px 7px 0px #464646;
+    margin-bottom: 7px;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #800080;
+}
+
+.savebtn {
+    min-width: 110px;
+}
+
+.table .tdsmall {
+    padding: 5px;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-left: 0px;
+}
+
+.terms-scrollable {
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #e1e2e5;
+    max-height: 200px;
+}
+
+.terms-scrollable label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+label.switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    display: none;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input.default:checked+.slider {
+    background-color: #444;
+}
+
+input.primary:checked+.slider {
+    background-color: #2196F3;
+}
+
+input.success:checked+.slider {
+    background-color: #8bc34a;
+}
+
+input.info:checked+.slider {
+    background-color: #3de0f5;
+}
+
+input.warning:checked+.slider {
+    background-color: #FFC107;
+}
+
+input.danger:checked+.slider {
+    background-color: #f44336;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#embedmap {
+    height: 480px;
+    background: #f9f7f7;
+    border: 1px solid #d8d3d3;
+}
+
+#map {
+    height: 480px;
+    background: #f9f7f7;
+    border: 1px solid #d8d3d3;
+}
+
+
+/* ##################### new hotel ###############*/
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.uploaded_image {
+    border: 1px solid #b3a6a6;
+    display: flex;
+    width: 270px;
+    height: 160px;
+    background-color: #cccccc;
+}
+
+.uploaded_image span {
+    text-align: center;
+    display: block;
+    color: #777676;
+    font-size: 20px;
+    margin: auto;
+}
+
+.boxgallery {
+    min-height: 110px;
+    padding: 10px;
+    background-color: #dedede;
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid #adadad;
+}
+
+.galleryimg {
+    display: inline-block;
+    margin: 2px;
+    height: 110px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.figureimg {
+    display: inline-block;
+    position: relative;
+    background-color: #ff0000;
+}
+
+.btndeleteimg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.amenitie-container {
+    text-transform: uppercase;
+    background-color: #f1f1f1;
+    font-weight: 400!important;
+    display: block;
+    position: relative;
+    padding-left: 38px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.amenitie-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    height: 22px;
+    width: 22px;
+    background-color: #fffefe;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 0px 1px #b5b5b5;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.amenitie-container:hover input~.checkmark {
+    background-color: #dee2e6;
+    border-radius: 5px;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.amenitie-container input:checked~.checkmark {
+    background-color: #007bff;
+    box-shadow: 0px 0px 0px 0px #cde4fd;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.amenitie-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.amenitie-container .checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 8px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.amenitiebox {
+    line-height: 40px;
+}
+
+.amenitiebox .icon {
+    width: 40px;
+    display: inline-block;
+    background-color: #20c997;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.amenitie-container span {
+    display: flex;
+}
+
+.imgbox {
+    position: relative;
+    background-color: #ff0000;
+    height: 160px;
+    width: 270px;
+}
+
+.imgbox .delimg {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+}
+
+.imgbox .contentimg {
+    background-color: #ff00ff;
+    height: 160px;
+    width: 270px;
+}
+
+.imgboxgallery {
+    border: 1px solid #adadad;
+    position: relative;
+    background-color: #ffffff;
+    height: 110px;
+    padding: 1px;
+    width: 200px;
+    display: inline-block;
+}
+
+.imgboxgallery .delimg {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+}
+
+.imgboxgallery .contentimg {
+    background-color: #ff00ff;
+    height: 110px;
+    width: 200px;
+}

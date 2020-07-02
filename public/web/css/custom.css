@@ -1,0 +1,16 @@
+/*
+ * Title:   Custom Style File
+ * Author:  http://themeforest.net/user/soaptheme 
+ */
+
+#header .logo img,
+#footer .logo img,
+.chaser .logo img {
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 1;
+    height: 38px;
+    width: auto;
+}

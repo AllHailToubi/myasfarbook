@@ -1,0 +1,20 @@
+
+
+############################################################
+####                       Modules                      ####
+############################################################
+
+############ Migration ###########
+#php artisan module:migrate Hotel
+
+############ Model ############
+#php artisan module:make-model hotel Hotel 
+
+
+########## Module Seeder ###########
+#php artisan module:make-seed fill_Amenties Hotel 
+#php artisan module:seed Hotel
+
+############################################################
+####                       Laravel                      ####
+############################################################

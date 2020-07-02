@@ -1,0 +1,15 @@
+
+        $sql="SELECT hotels.id,hotels.name name,hotels.city,hotels.country,hotels.star_rate,hotels.shortdesc,hotels.embedmap,hotels.image_id, rooms.hotel_id,Min(IFNULL(roomavibility.price,rooms.price)) minprice
+        FROM rooms 
+        left JOIN roomavibility ON rooms.id=roomavibility.room_id AND roomavibility.date='$new_data_from'
+        JOIN hotels ON hotels.id=rooms.hotel_id AND hotels.agency_id=".agencyID()." AND hotels.status=1 ";
+
+        if($city!=''){
+            $sql.=" AND hotels.city='$city' ";
+        }
+        
+        $sql.="GROUP BY rooms.hotel_id,hotels.id,hotels.name,hotels.city,hotels.country,hotels.star_rate,hotels.shortdesc,hotels.embedmap,hotels.image_id
+        ORDER BY $type asc";
+        return DB::connection('mysql_shared')->select($sql);
+
+        
